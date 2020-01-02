@@ -1,0 +1,3 @@
+Does it need to work when in landscape
+how to check if the icon has changed 
+how to access the buttons and textviews in the fragment from the main activity

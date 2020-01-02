@@ -1,0 +1,17 @@
+subtract.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String t = text.getText().toString();
+                if(start.isEmpty()){
+                    start = t;
+                    clearText = true;
+                    operation = "-";
+                }else{
+                    end = text.getText().toString();
+                    text.setText(getResult());
+                    start = "";
+                    end="";
+                    operation = "";
+                }
+            }
+        });
